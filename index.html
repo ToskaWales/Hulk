@@ -248,7 +248,16 @@ const phases = {
     ]
   }]},
   phase2:{label:"Phase 2",weeks:"Weeks 3–14",subtitle:"The Hulk Protocol",days:[
-    {id:"monday",label:"MONDAY",title:"Lower Ham",tag:"Hamstring Focus · Glutes",color:"#facc15",
+    {id:"monday",label:"MONDAY",title:"Upper",tag:"Chest & Back Focus",color:"#f87171",exercises:[
+      {name:"Incline Barbell Bench (Close Grip)",sets:[{},{},{}],note:"6-8 reps — slight close grip",w:true},
+      {name:"Fly",sets:[{},{}],note:"10-12 reps — elbows together and up",w:true},
+      {name:"Pull-Ups",sets:[{},{},{}],note:"6-8 reps — chest to bar, engage back",w:true},
+      {name:"Cable Lateral Raise",sets:[{},{}],note:"8-10 reps",w:true},
+      {name:"Chest Supported Row (Partials)",sets:[{},{}],note:"6-8 reps — partials",w:true},
+      {name:"Overhead Extension (Hip Height)",sets:[{},{}],note:"8-10 reps — hip height cable",w:true},
+      {name:"Hammer Curl",sets:[{},{}],note:"8-10 reps",w:true},
+    ]},
+    {id:"tuesday",label:"TUESDAY",title:"Lower",tag:"Hamstring Focus · Glutes",color:"#facc15",
      conditioning:{title:"Power EMOM (10 Mins)",items:["10-sec hill sprint or max effort cycle","Rest remainder of each minute"]},
      exercises:[
       {name:"Lying Leg Curls",sets:[{},{},{}],note:"1 top set 8-10, 2 back-off sets 12-15 + lengthened partials",w:true},
@@ -256,30 +265,7 @@ const phases = {
       {name:"RDLs",sets:[{},{},{}],note:"8-10 reps — stretch to mid-shin",w:true},
       {name:"Bulgarian Split Squats",sets:[{},{}],note:"8-10 reps — hold rail to maximize quad load",w:true},
     ]},
-    {id:"tuesday",label:"TUESDAY",title:"Upper",tag:"Chest & Back Focus",color:"#f87171",exercises:[
-      {name:"Incline Barbell Bench (Close Grip)",sets:[{},{},{}],note:"6-8 reps — slight close grip",w:true},
-      {name:"Fly",sets:[{},{}],note:"10-12 reps — elbows together and up",w:true},
-      {name:"Pull-Ups",sets:[{},{},{}],note:"6-8 reps — chest to bar, engage back",w:true},
-      {name:"Cable Lateral Raise",sets:[{},{}],note:"8-10 reps",w:true},
-      {name:"Chest Supported Row (Partials)",sets:[{},{}],note:"6-8 reps — partials",w:true},
-      {name:"Overhead Extension (Hip Height)",sets:[{},{}],note:"8-10 reps — hip height cable",w:true},
-      {name:"Hammer Curl",sets:[{},{}],note:"8-10 reps",w:true},
-    ]},
-    {id:"wednesday",label:"WEDNESDAY",title:"Upper",tag:"Chest & Back Focus",color:"#60a5fa",exercises:[
-      {name:"Incline Barbell Bench (Close Grip)",sets:[{},{},{}],note:"6-8 reps — slight close grip",w:true},
-      {name:"Fly",sets:[{},{}],note:"10-12 reps — elbows together and up",w:true},
-      {name:"Pull-Ups",sets:[{},{},{}],note:"6-8 reps — chest to bar, engage back",w:true},
-      {name:"Cable Lateral Raise",sets:[{},{}],note:"8-10 reps",w:true},
-      {name:"Chest Supported Row (Partials)",sets:[{},{}],note:"6-8 reps — partials",w:true},
-      {name:"Overhead Extension (Hip Height)",sets:[{},{}],note:"8-10 reps — hip height cable",w:true},
-      {name:"Hammer Curl",sets:[{},{}],note:"8-10 reps",w:true},
-    ]},
-    {id:"thursday",label:"THURSDAY",title:"Rest",tag:"Recovery & Refuel",color:"#34d399",exercises:[
-      {name:"Zone 2 Walk or Light Jog",sets:[],note:"30 min — ~135 bpm",w:false},
-      {name:"Nutrition Focus",sets:[],note:"Highest carb day — refuel glycogen",w:false},
-      {name:"Mobility Work",sets:[],note:"Hips, ankles, thoracic",w:false},
-    ]},
-    {id:"friday",label:"FRIDAY",title:"Upper",tag:"Arms & Back Priority",color:"#c084fc",
+    {id:"thursday",label:"THURSDAY",title:"Upper",tag:"Arms & Back Priority",color:"#c084fc",
      conditioning:{title:"Hormone Spike EMOM (8 Mins — START of session)",items:["Performed first so arm work isn't compromised","Max effort each minute, rest remainder"]},
      exercises:[
       {name:"Chest Supported Row (Partials)",sets:[{},{}],note:"8-10 reps — bottom 2/3 only for stretch",w:true},
@@ -290,7 +276,7 @@ const phases = {
       {name:"Bayesian Curls",sets:[{},{},{}],note:"8-12 reps",w:true},
       {name:"Incline DB Curl",sets:[{},{}],note:"10-12 reps — shoulder behind body, maximizes long head stretch",w:true},
     ]},
-    {id:"saturday",label:"SATURDAY",title:"Lower Quad",tag:"Quad Focus · Core",color:"#fb923c",exercises:[
+    {id:"friday",label:"FRIDAY",title:"Lower",tag:"Quad Focus · Core",color:"#fb923c",exercises:[
       {name:"Seated Leg Curls",sets:[{},{}],note:"10-12 reps — knee warm-up",w:true},
       {name:"Hack Squat / Leg Press",sets:[{},{},{}],note:"1 top set 6-8, 2 back-off sets 10-12",w:true},
       {name:"Leg Extensions",sets:[{},{},{}],note:"10-15 reps — seat reclined",w:true},
